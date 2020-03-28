@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+h2 {
+  font-family: Georgia;
+}
+p {
+  color: blue
+  background-color: white
+}
+nav > ul {
+  list-style-type: none;
+  padding: 10px;
+  font-family: serif;
+}
+nav > ul > li {
+  display: inline;
+  font-size: 0.6em
+  padding: 15px 15px 15px 0px;
+  margin-left: 10px;
+}
