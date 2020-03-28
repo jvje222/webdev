@@ -1,3 +1,3 @@
-# Web Site Development test site.
+ICT420 Web Site Development
 
-Used to test or develop HTML5 technologies.
+Jason Jewsikow Resume Website
