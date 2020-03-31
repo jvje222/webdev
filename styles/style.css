@@ -3,10 +3,15 @@ body {
 }
 h2 {
   font-family: Georgia;
+  color: #FE5858;
+  font-size: 2em;
+  text-align: center;
+  background-color: #ECB4B4;
+  padding: 10px;
 }
 p {
-  color: blue
-  background-color: white
+  color: blue;
+  background-color: white;
 }
 nav > ul {
   list-style-type: none;
@@ -19,3 +24,7 @@ nav > ul > li {
   padding: 15px 15px 15px 0px;
   margin-left: 10px;
 }
+span {
+  font-weight: bold;
+}
+#
