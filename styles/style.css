@@ -3,10 +3,10 @@ body {
 }
 h2 {
   font-family: Georgia;
-  color: #0038B8;
+  color: #CA0000;
   font-size: 2em;
   text-align: center;
-  background-color: #6C98FE;
+  background-color: #E96C6C;
   padding: 10px;
 }
 p {
@@ -27,4 +27,11 @@ nav > ul > li {
 span {
   font-weight: bold;
 }
-#
+#profile-pic {
+    border: 5px solid black;
+}
+
+footer {
+  background-color: #E96C6C;
+  font-family: arial;
+}
