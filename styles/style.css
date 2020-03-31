@@ -3,7 +3,7 @@ body {
 }
 h2 {
   font-family: Georgia;
-  color: #0256F3;
+  color: #0038B8;
   font-size: 2em;
   text-align: center;
   background-color: #6C98FE;
@@ -11,7 +11,7 @@ h2 {
 }
 p {
   color: black;
-  background-color: #6C98FE;
+  background-color: #white;
 }
 nav > ul {
   list-style-type: none;
