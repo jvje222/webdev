@@ -1,14 +1,10 @@
-header {
-  background-color: #23374D
-}
-
 body {
   font-family: sans-serif;
   background-color: #E5E5E5
 }
 h2 {
   font-family: Georgia;
-  color: #037BF1;
+  color: #23374D;
   font-size: 2em;
   text-align: center;
   background-color: #1089FF;
@@ -32,6 +28,11 @@ nav > ul > li {
 span {
   font-weight: bold;
 }
+
+#Jason_Jewsikow: {
+  background-color: #23374D
+}
+
 #profile-pic {
     border: 5px solid black;
 }
