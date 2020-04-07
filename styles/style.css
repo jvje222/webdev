@@ -13,7 +13,7 @@ h2 {
 }
 
 h2 ~ p {
-  background-color: rgba(16, 137, 255, 0.6);
+  background-color: rgba(16, 137, 255, 0.3);
 }
 
 p {
