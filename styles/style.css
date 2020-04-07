@@ -13,7 +13,7 @@ h2 {
 }
 
 h2 ~ p {
-  background-color: #B2EBF2
+  background-color: #23374D, 0.5
 }
 
 p {
