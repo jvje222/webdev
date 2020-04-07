@@ -49,7 +49,7 @@ span {
 
 footer {
   background-color: #EEEEEE;
-  position: fixed center;
+  position: fixed;
   font-family: arial;
   border: 1px solid black;
   width: 100%;
