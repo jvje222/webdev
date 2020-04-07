@@ -9,6 +9,7 @@ h2 {
   text-align: center;
   background-color: #1089FF;
   padding: 10px;
+  border: 1px solid black;
 }
 
 h2 ~ p {
