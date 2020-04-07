@@ -9,7 +9,7 @@ h2 {
   text-align: center;
   background-color: #1089FF;
   padding: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 h2 ~ p {
@@ -46,4 +46,6 @@ span {
 footer {
   background-color: #EEEEEE;
   font-family: arial;
+  border: 1px solid black;
+  width: 8cm;
 }
