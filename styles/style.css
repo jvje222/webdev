@@ -45,6 +45,7 @@ span {
 
 #profile-pic {
     border: 5px solid black;
+    align-content: center;
 }
 
 #copyright {
