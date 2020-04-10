@@ -37,6 +37,10 @@ span {
 
 #Jason_Jewsikow: {
   background-color: #23374D
+  position: sticky;
+  text-decoration: overline;
+  text-align: justify;
+  color: inherit;
 }
 
 #profile-pic {
