@@ -12,7 +12,7 @@ body {
   top: 0;
   left: 0;
   background-color: #23374D;
-  height: 80px;
+  height: 70px;
   width: 100%
 }
 
@@ -22,7 +22,7 @@ header h1 {
 
 .navi {
   float: right;
-  padding: 0 15px 0 0;
+  padding: 0 10px 0 0;
 }
 
 .navi li {
@@ -30,5 +30,5 @@ header h1 {
   list-style-type: none;
   margin: 0 0 5px 5px;
   padding-top: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
