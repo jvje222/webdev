@@ -40,6 +40,7 @@ span {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 50px;
   gap: 50px;
+  padding: 100px;
 }
 
 #Jason_Jewsikow: {
