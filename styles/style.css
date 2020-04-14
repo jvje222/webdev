@@ -35,6 +35,14 @@ span {
   font-weight: bold;
 }
 
+#main_about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  padding-left: 300px;
+  gap: 50px;
+}
+
 #Jason_Jewsikow: {
   background-color: #23374D
   position: sticky;
