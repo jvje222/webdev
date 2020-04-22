@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #E5E5E5
+  background-color: #E5E5E5;
 }
 h2 {
   font-family: Georgia;
@@ -10,6 +10,8 @@ h2 {
   background-color: #1089FF;
   padding: 10px;
   border: 2px solid black;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 h2 ~ p {
@@ -19,6 +21,7 @@ h2 ~ p {
 p {
   color: black;
   background-color: #white;
+  padding: 8px;
 }
 nav > ul {
   list-style-type: none;
@@ -35,15 +38,6 @@ span {
   font-weight: bold;
 }
 
-#main_about {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 50px;
-  gap: 50px;
-  padding: 20px;
-}
-
-
 
 Jason_Jewsikow: {
   background-color: #23374D
@@ -52,8 +46,6 @@ Jason_Jewsikow: {
   text-align: justify;
   color: inherit;
 }
-
-
 
 #copyright {
   font-size: 0.75rem;
@@ -95,33 +87,49 @@ footer {
 nav {
   background-color: #23374D;
   height: 70px;
+  padding: 3px;
 }
 
 main {
   display: grid;
-  grid-auto-flow: column;
-  grid-gap: 50px;
-  gap: 50px;
-  padding: 20px;
-}
-
-.main {
-  display: grid;
   grid-template-areas: 'header header header'
-                       'Profile_Picture intro Profile_Picture'
-                       'footer footer footer'
+                       'PP1 intro PP2'
+                       'footer footer footer';
     grid-gap: 20px;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 1px;
     text-align: center;
+    line-height: 1.2;
     text-transform: full-width;
 }
+    .header {
+          grid-area: header;
+      }
+    .profile-pic1 {
+            grid-area: PP1;
+      }
+    .intro {
+              grid-area: intro;
+      }
+    .profile-pic2 {
+             grid-area: PP2;
+      }
+    .footer {
+            grid-area: footer;
+      }
 
 main p {
   font-family: serif;
+  font-size: 18px;
+  padding: 20px;
 }
 
+
+
+
 .logo{
+  cursor: pointer;
+  user-select: contain;
   display: block;
   position: absolute;
   top: 0px;
@@ -135,9 +143,12 @@ main p {
   width: 100%;
 }
 
+.Profile_Picture {
+  border: border: 5px solid black;
+}
+
 footer {
-  background: #EEEEEE
-  padding: 0.8rem 0 1.5rem 0;
+  background: #EEEEEE;
 }
 
 footer p {
