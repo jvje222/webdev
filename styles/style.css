@@ -68,7 +68,7 @@ nav {
 main {
   display: grid;
   grid-template-areas: 'header header header'
-                       'PP1 intro PP2'
+                       'PP1  intro PP2'
                        'footer footer footer';
     grid-gap: 20px;
     gap: 10px;
@@ -96,7 +96,8 @@ main {
 main p {
   font-family: serif;
   font-size: 18px;
-  padding: 20px;
+  padding: 0px;
+  line-height: 2.0;
 }
 
 
@@ -138,6 +139,48 @@ footer p {
 #copyright {
   font-size: 0.75rem;
 }
+
+#main_accomplish {
+  display: grid;
+  grid-template-areas: 'header header header'
+                       'other-pic intro intro-pic'
+                       'other-pic work work-pic'
+                       'footer footer footer';
+    grid-gap: 20px;
+    gap: 10px;
+    padding: 1px;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: full-width;
+}
+.accomp-header {
+      grid-area: header;
+  }
+.accomplish-pic-intro {
+      grid-area: intro-pic;
+  }
+.accomp-intro {
+      grid-area: ;
+  }
+  .accomp-work {
+      grid-area: work;
+    }
+.accomplish-pic-vol {
+      grid-area: work-pic;
+  }
+.accomplish-pic-other {
+      grid-area: other-pic;
+}
+.footer {
+      grid-area: footer;
+  }
+
+
+
+
+
+
+
 
 
 about-pic-intro {
