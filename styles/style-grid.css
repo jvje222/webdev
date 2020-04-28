@@ -1,7 +1,50 @@
 body {
-  font-family: sans-serif;
+  font-family: serif;
   background-color: #E5E5E5;
 }
+
+p {
+  color: black;
+}
+
+nav {
+  background-color: #23374D;
+  height: 70px;
+  padding: 3px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 10px;
+  font-family: serif;
+}
+nav > ul > li {
+  display: inline;
+  font-size: 1.6em
+  padding: 15px 15px 15px 0px;
+  margin-left: 10px;
+}
+.navi {
+  float: right;
+    padding: 0 25px 0 0;
+}
+.navi li {
+  float: left;
+  list-style-type: none;
+  margin: 0 0 0px 25px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.navi a {
+  color: #EEEEEE;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.navi a:hover {
+  color: #1089FF
+}
+
+
 h2 {
   font-family: Georgia;
   color: #23374D;
@@ -18,21 +61,8 @@ h2 ~ p {
   background-color: rgba(16, 137, 255, 0.3);
 }
 
-p {
-  color: black;
-  background-color: #white;
-}
-nav > ul {
-  list-style-type: none;
-  padding: 10px;
-  font-family: serif;
-}
-nav > ul > li {
-  display: inline;
-  font-size: 1.6em
-  padding: 15px 15px 15px 0px;
-  margin-left: 10px;
-}
+
+
 span {
   font-weight: bold;
 }
@@ -105,64 +135,12 @@ about-pic-intro {
 }
 
 
-
-
-Jason_Jewsikow: {
-  background-color: #23374D
-  position: sticky;
-  text-decoration: overline;
-  text-align: justify;
-  color: inherit;
-}
-
-
-
-#copyright {
-  font-size: 0.75rem;
-}
-
-footer {
-  background-color: #EEEEEE;
-  text-align: center;
-  font-family: arial;
-  border: 1px solid black;
-  width: 100%;
-}
-
-
-.navi {
-  float: right;
-    padding: 0 25px 0 0;
-}
-
-.navi li {
-  float: left;
-  list-style-type: none;
-  margin: 0 0 0px 25px;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-
-.navi a {
-  color: #EEEEEE;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-}
-
-.navi a:hover {
-  color: #1089FF
-}
-
-nav {
-  background-color: #23374D;
-  height: 70px;
-  padding: 3px;
-}
-
 main p {
-  font-family: serif;
+  font-family: sans-serif;
 }
+
+
+
 
 .logo{
   cursor: pointer;
@@ -179,12 +157,18 @@ main p {
   width: 100%;
 }
 
-footer {
-  background: #EEEEEE;
-}
 
+footer {
+  background-color: #EEEEEE;
+  font-family: arial;
+  border: 1px solid black;
+  width: 100%;
+}
 footer p {
   text-align: center;
   color: black;
   font-size: 1rem;
+}
+#copyright {
+  font-size: 0.75rem;
 }
