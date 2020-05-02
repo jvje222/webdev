@@ -8,6 +8,18 @@ p {
   margin: 6px;
 }
 
+.logo{
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  bottom: auto;
+  padding-top: 7.5px;
+  margin: 0;
+  max-width: 100%;
+}
+
 nav {
   background-color: #23374D;
   height: 70px;
@@ -20,7 +32,7 @@ nav > ul {
 }
 nav > ul > li {
   display: inline;
-  font-size: 1.6em
+  font-size: 1.6em;
   padding: 15px 15px 15px 0px;
   margin-left: 10px;
 }
@@ -131,23 +143,10 @@ span {
         .footer {
             grid-area: footer;
         }
-    }
-}
 
 
 main p {
   font-family: sans-serif;
-}
-
-
-.logo{
-  cursor: pointer;
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 10px;
-  bottom: auto;
-  padding-top: 7.5px;
 }
 
 .repon{
