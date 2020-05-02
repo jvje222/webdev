@@ -140,73 +140,31 @@ footer p {
   font-size: 0.75rem;
 }
 
-#main_accomplish {
-  display: grid;
-  grid-template-areas: 'header header header'
-                       'other-pic intro intro-pic'
-                       'other-pic work work-pic'
-                       'footer footer footer';
-    grid-gap: 20px;
-    gap: 10px;
-    padding: 1px;
-    text-align: center;
-    line-height: 1.2;
-    text-transform: full-width;
+#main_accomplish p {
+  font-family: serif;
+  line-height: normal;
 }
-.accomp-header {
-      grid-area: header;
-  }
-.accomplish-pic-intro {
-      grid-area: intro-pic;
-  }
-.accomp-intro {
-      grid-area: ;
-  }
-  .accomp-work {
-      grid-area: work;
-    }
-.accomplish-pic-vol {
-      grid-area: work-pic;
-  }
-.accomplish-pic-other {
-      grid-area: other-pic;
+
+#accomplish-pic-intro {
+  position: relative;
+  bottom: 20px;
+  left: 35px;
+  border: 4px solid black;
 }
-.footer {
-      grid-area: footer;
-  }
-
-
-
-
-
-
-
-
-
-about-pic-intro {
+#accomplish-pic-work {
   position: absolute;
-  top: 400px;
+  top: 450px;
+  left: 525px;
+  border: 4px solid black;
 }
-
-#about-pic-intro {
-  position: relative;
-  bottom: 160px;
+#accomplish-pic-other {
+  position: absolute;
+  top: 430px;
+  left: 1110px;
   border: 4px solid black;
 }
 
-#about-pic-traits {
-  position: relative;
-  bottom: 20px;
-  border: 4px solid black;
-}
-#about-pic-back {
-  position: relative;
-  bottom: 20px;
-  border: 4px solid black;
-}
-
-
-#main_about {
+#main_accomplish {
   grid-gap: 20px;
   gap: 20px;
   padding-left: 0;
@@ -218,34 +176,33 @@ about-pic-intro {
   font-size: 17px;
  grid-template-areas:
  "header header header"
- "intro back trait"
- "about-pic-inro about-pic-back about-pic-trait"
+ "past present future"
+ "other-pic intro-pic work-pic"
  "footer footer footer";
-        }
-        .aboutme_header {
-            grid-area: header;
-        }
-        .aboutme_intro {
-            grid-area: intro;
-        }
-        .aboutme_background {
-            grid-area: back;
-        }
-        .aboutme_traits {
-            grid-area: traits;
-        }
-        .about-pic-inro {
-            grid-area: about-pic-inro;
-            border: 2px solid black;
-        }
-        .about-pic-back {
-            grid-area: about-pic-back;
-        }
-        .about-pic-trait {
-            grid-area: about-pic-trait;
-        }
-        .footer {
-            grid-area: footer;
-        }
+}
+.accomp-header {
+    grid-area: header;
+  }
+.accomp-past {
+      grid-area: past;
+  }
+.accomp-present {
+      grid-area: present;
+  }
+.accomp-future {
+      grid-area: future;
+  }
+.accomplish-pic-other {
+        grid-area: other-pic;
+  }
+.accomplish-pic-intro {
+      grid-area: intro-pic;
+  }
+.accomplish-pic-work {
+      grid-area: work-pic;
+  }
+.footer {
+      grid-area: footer;
     }
+  }
 }
